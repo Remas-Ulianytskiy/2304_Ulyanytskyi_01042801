@@ -8,7 +8,7 @@ private:
     int m_numerator = 0;
     int m_denominator = 1;
 
-    int biggest_divisor(int a, int b)
+    /*int biggest_divisor(int a, int b)
     {
         while (b != 0)
         {
@@ -17,7 +17,7 @@ private:
             a = temp;
         }
         return a;
-    }
+    }*/
 
 public:
     Fraction(int numerator = 0, int denominator = 1) :
