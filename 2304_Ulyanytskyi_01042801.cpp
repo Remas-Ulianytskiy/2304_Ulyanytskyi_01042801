@@ -30,12 +30,12 @@ public:
         return out;
     }
 
-    void simplify()
+    /*void cut()
     {
         int gcd = biggest_divisor(m_numerator, m_denominator);
         m_numerator /= gcd;
         m_denominator /= gcd;
-    }
+    }*/
 };
 
 void print_fraction(const unique_ptr<Fraction>& ptr)
